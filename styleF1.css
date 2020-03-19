@@ -1,40 +1,49 @@
-div{
-    
+.qq{
+    display: table;
 }
-.a{
+.qq .q{
+    float: left;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.qq .w{
+    float: left;
+    margin-right: 300px;
+}
+.qq .e{
+    float: left;
+
+}
+.aa{
+    margin-top: 20px;
+}
+.aa .a{
+    border: 2px solid black;
+    float: left;
     border-top: green solid 100px;
     border-bottom: rgb(218, 218, 3) solid 100px;
     padding: 50px;
     background-color: #0744a0;
-    margin-bottom: 50px;
+    width: 100px;
+    margin-right: 20px;
 
 }
-.b{
-    border-left: green solid 350px;
-    border-right: red solid 350px;
-    padding: 50px;
-    background-color: yellow;
-    margin-bottom: 50px;
-}
-.c{
-    border-left: black solid 350px;
-    border-right: yellow solid 350px;
-    padding: 50px;
-    background-color: red;
-    margin-bottom: 50px;
-}
-.d{
+.aa .b{
+    border: 2px solid black;
     border-left: green solid 100px;
-    border-top: yellow solid 100px;
-    padding: 50px;
-    background-color: red;
-    margin-bottom: 50px;
-}
-.e{
-    border-left: rgb(14, 14, 122) solid 350px;
-    border-right: rgb(206, 206, 9) solid 350px;
-    padding: 50px;
-    background-color: red;
-    margin-bottom: 50px;
-}
+    border-right: red solid 100px;
+    float: left;
+    padding: 100px;
+    background-color: yellow;
+    height: 60px;
+    margin-right: 20px;
 
+}
+.aa .c{
+    float: left;
+    border: 2px solid black;
+    border-left: black solid 100px;
+    border-right: yellow solid 100px;
+    padding: 100px;
+    background-color: red;
+    height: 100px;}
