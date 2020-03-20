@@ -8,17 +8,19 @@
             <!-- navigation -->
             <header>
                 <nav>
-
-                 <ul>
-                     <li><a href="">Home</a></li>
-                     <li><a href="">Contact</a></li>
-                     <li><a href="">image</a></li>
-                     <a href=""></a>
-                 </ul>
+                    <ul>
+                        <li><a href="index.html">Home</a>&nbsp</li>
+                        <li><a href="contact.html">Contact</a>&nbsp</li>
+                        <li> <a href="blog.html">Blog</a>
+                        </li>
+                        <li><a href="Gallery.html">Gallery</a>
+                        </li>
+                    
+                    </ul>
+    
                 </nav>
-
             </header>
-
+    
             <div id="content">
                 <section>
                     <br><br><br><br>
@@ -40,9 +42,20 @@
                         <p>When the client’s browser text size is set to “medium,” there is no difference between em and percent. </p>
                         <p>When the setting is altered, however, the difference is quite large. On the “Smallest” setting, ems are much smaller than percent, and when on the “Largest” setting, it’s quite the opposite, with em displaying much larger than percent. </p>
                         <p>While some could argue that, the em units are scaling as they are truly intended, in practical application, the em text scales too abruptly, with the smallest text becoming hardly legible on some client machines. </p>
-
-
-                    </article>
+                        <p><h3><b>EM unit</b></h3></p>
+                        <p>The em and rem units are practical in creating perfectly scalable layout.</p>
+                        <p>The em unit is a scalable font size unit. It is related to the font size of the parent container. One em (1em) is equal to the current font size. So for example, if the parent element has the font size of 16px than 1em is equal to 16px, 2em is equal to 32px, and so on.</p>
+                        <p>Making the design responsive becomes much easier if we use em units instead of px.</p>
+                        <p><h3><b>REM unit</b></h3></p>
+                        <p>The rem unit is another scalable font size, but unlike the em unit, it is related to the root element (HTML) instead of the parent element. That's where it got its name (root em = rem).</p>
+                        <p>This means that, if we use the rem unit on elements, we can quickly change the font size of the entire project, just by adjusting the root font size. This way its fast, easy, and avoids any nesting complications you might get while using the em unit.</p>
+                        <p><h3><b>Why use relative units?</b></h3></p>
+                        <p>There are a couple of reasons to use this pattern. Of course we can set everything in pixels, but if we want to make something responsive, we usually need to overwrite more values. </p>
+                        <p>And another, maybe more important, reason: some people will have their browser font size set to something else than the default 16px, for example people who are visually impaired.</p>
+                        <p>If we set a higher default font size, we wouldn't have to zoom in the browser to be able to read a website, because the content of a website with relative units would increase with our preferred font size.</p>
+                        <p>It might seem tempting to use pixels for font-size, but it’s not recommended for accessibility reasons.</p>
+                        <p>This is because even though zooming in will make pixel sizes greater, changing the base font size in the browser settings will have no effect. So pixels are not a fully accessible solution for fonts.</p>
+                                        </article>
                     <br><br><br>
                     <p class="date">March,20,2020 8pm</p>
                 </section>
