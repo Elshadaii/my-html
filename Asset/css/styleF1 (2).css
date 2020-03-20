@@ -1,0 +1,138 @@
+.header .h1{
+    text-align: center;
+}
+.aa{
+    margin-left: 34%;
+    margin-top: 40px;
+}
+.aa .f1 {
+    border: 2px solid black;
+
+    border-top: solid rgb(82, 173, 82) 100px;
+    border-bottom:solid blue 100px;
+    padding: 50px;
+    background-color: white;
+    width:400px;
+    margin-bottom: 30px;
+   
+}
+.aa .f2 {
+    border: 2px solid black;
+
+    border-right:  rgb(4, 128, 4) solid 160px;
+    border-left: rgb(37, 37, 179) solid 160px;
+    padding: 50px;
+    background-color: rgb(190, 190, 9);
+    width:80px;
+    height:200px;
+    margin-bottom: 30px;
+}
+.aa .f3 {
+    border: 2px solid black;
+
+    border-top: solid rgb(146, 4, 4) 100px;
+    border-bottom:solid  rgb(146, 4, 2) 100px;
+    padding: 50px;
+    background-color: white;
+    width:400px;
+    margin-bottom: 30px;
+}
+.aa .f4 {
+    border: 2px solid black;
+
+    border-right: solid  rgb(155, 9, 9) 160px;
+    border-left:solid  rgb(5, 5, 136) 160px;
+    padding: 50px;
+    background-color: rgb(201, 201, 6);
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.aa .f5 {
+    border: 2px solid black;
+
+    border-right: solid rgb(5, 161, 5) 160px;
+    border-left:solid rgb(253, 22, 22) 160px;
+    padding: 50px;
+    background-color: rgb(224, 224, 39);
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.aa .f6 {
+    border: 2px solid black;
+
+    border-top: solid  rgb(146, 4, 4) 100px;
+    border-bottom:solid  black 100px;
+    padding: 50px;
+    background-color: white;
+    width:400px;
+    margin-bottom: 30px;
+}
+.aa .f7 {
+    border: 2px solid black;
+
+    border-right: solid green 160px;
+    border-left:solid red 160px;
+    padding: 50px;
+    background-color: yellow;
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.aa .f8 {
+    border: 2px solid black;
+
+    border-top: solid rgb(194, 14, 14) 100px;
+    border-bottom:solid rgb(214, 143, 11) 100px;
+    padding: 50px;
+    background-color: rgb(3, 3, 167);
+    width:400px;
+    margin-bottom: 30px;
+}
+.aa .f9 {
+    border: 2px solid black;
+
+    border-right: solid black 160px;
+    border-left:solid rgb(216, 25, 25) 160px;
+    padding: 50px;
+    background-color: rgb(207, 207, 33);
+    width:80px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.aa .f10 {
+    border: 2px solid black;
+
+    border: 2px solid black;
+
+    border-top: solid rgb(243, 22, 22) 100px;
+    border-bottom:solid  rgb(95, 95, 233) 100px;
+    padding: 50px;
+    background-color: white;
+    width:400px;
+    margin-bottom: 30px;
+
+}
+
+
+.aa .f11 {
+    border: 2px solid black;
+
+    border-top: solid rgb(243, 22, 22) 100px;
+    border-bottom:solid rgb(25, 182, 25) 100px;
+    padding: 50px;
+    background-color: white;
+    width:400px;
+    margin-bottom: 30px;
+
+    
+}
+.aa .f12 {
+    border: 2px solid black;
+
+    border-top: solid rgb(102, 166, 240) 200px;
+    border-bottom:solid rgb(236, 236, 26) 200px;
+    width:500px;
+    margin-bottom: 30px;
+}
